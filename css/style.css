@@ -550,6 +550,7 @@ address p:not(:last-child) {
   padding-left: 29px;
   padding-right: 13px;
   margin-top: 21px;
+  margin-left: 370px;
 
   font-weight: 900;
 }
