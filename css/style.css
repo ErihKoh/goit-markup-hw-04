@@ -179,26 +179,12 @@ p {
 .contatcs .item:not(:last-child) {
   margin-right: 30px;
 }
-/* .contatcs .item:nth-child(1)::before {
-  width: 16px;
-  height: 11px;
-  margin-right: 10px;
-  content: "";
-  background-image: url(../image/letter.svg);
-  background-size: cover;
-} */
+
 .icon-mail {
   margin-right: 10px;
   fill: var(--primery-text-color);
 }
-/* .contatcs .item:nth-child(2)::before {
-  width: 10px;
-  height: 15px;
-  margin-right: 10px;
-  content: "";
-  background-image: url(../image/phone.svg);
-  background-size: cover; 
-} */
+
 .contatcs a {
   display: block;
   padding-top: 32px;
@@ -296,22 +282,6 @@ p {
   background-color: #f5f4fa;
 }
 
-/* .quality .item:nth-child(1)::before {
-  background-image: url(../image/antenna.svg);
-} */
-
-/* .quality .item:nth-child(2)::before {
-  background-image: url(../image/clock1.svg);
-}
-
-.quality .item:nth-child(3)::before {
-  background-image: url(../image/diagram1.svg);
-}
-
-.quality .item:nth-child(4)::before {
-  background-image: url(../image/astronaut1.svg);
-  background-color: #f5f4fa; */
-
 /* app section */
 
 .app-section .list {
@@ -371,10 +341,9 @@ p {
 .team-link {
   display: flex;
   justify-content: space-between;
-  padding: 12px 44px;
-  margin-top: 16px;
+  padding: 16px 44px 0;
+  /* margin-top: 16px; */
 }
-
 .team-link a {
   display: inline-flex;
   align-items: center;
@@ -383,7 +352,6 @@ p {
   height: 44px;
   border-radius: 50%;
 }
-
 .icon-social-team {
   fill: #afb1b8;
 }
@@ -393,45 +361,13 @@ p {
   fill: var(--primery-bg-color);
 }
 
-.team-section li {
-  background-image: #ffffff;
+/* .team-link li {
+  /* border-radius: 50%; */
 
-  border-radius: 50%;
-}
-.team-section li:hover,
-.team-section li:focus {
+.team-link a:hover,
+.team-link a:focus {
   background-color: var(--accent-color);
 }
-
-/* .icon-tweet {
-  display: block;
-  width: 20px;
-  height: 20px;
-  background-image: url(../image/tweet.svg);
-  content: "";
-  background-repeat: no-repeat;
-}
-
-.icon-face {
-  display: block;
-  width: 20px;
-  height: 20px;
-  background-image: url(../image/face.svg);
-  content: "";
-  background-repeat: no-repeat;
-}
-
-.icon-in {
-  display: block;
-  width: 20px;
-  height: 20px;
-  background-image: url(../image/linkedin.svg);
-  content: "";
-  background-repeat: no-repeat; */
-
-/* .icon-social-team:not(:last-child) {
-  margin-right: 40px;
-} */
 
 /* clients */
 
