@@ -361,9 +361,6 @@ p {
   fill: var(--primery-bg-color);
 }
 
-/* .team-link li {
-  /* border-radius: 50%; */
-
 .team-link a:hover,
 .team-link a:focus {
   background-color: var(--accent-color);
@@ -389,6 +386,9 @@ footer {
   align-items: baseline;
   padding-top: 48px;
   padding-bottom: 28px;
+}
+.address-footer {
+  width: 231px;
 }
 
 .logo-footer {
@@ -448,16 +448,22 @@ address p:not(:last-child) {
 }
 
 .social a {
-  display: inline-block;
+  display: inline-flex;
   width: 44px;
   height: 44px;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.social-inst {
+.icon-social-footer {
+  fill: var(--primery-bg-color);
+}
+
+/* .social-inst {
   background-image: url(../image/inf.svg);
 }
 
@@ -471,7 +477,7 @@ address p:not(:last-child) {
 
 .social-link {
   background-image: url(../image/linkf.svg);
-}
+} */
 
 .social a:hover,
 .social a:focus {
@@ -485,7 +491,7 @@ address p:not(:last-child) {
 .subscribe {
   display: inline-flex;
   flex-direction: column;
-  margin-left: 164px;
+  margin-left: 94px;
 }
 
 .subscribe-text {
@@ -499,7 +505,7 @@ address p:not(:last-child) {
 
 .subscribe-button {
   display: inline-flex;
-  width: 200px;
+  min-width: 200px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 29px;
@@ -509,14 +515,10 @@ address p:not(:last-child) {
 
   font-weight: 900;
 }
-.subscribe-button::after {
-  padding-right: 0;
+
+.icon-batton {
   margin-left: 10px;
-  width: 24px;
-  height: 24px;
-  content: "";
-  background-image: url(../image/send.svg);
-  background-size: cover;
+  fill: var(--primery-bg-color);
 }
 
 .copyright {
