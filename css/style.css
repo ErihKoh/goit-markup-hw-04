@@ -185,7 +185,7 @@ p {
   fill: var(--primery-text-color);
 }
 
-.contatcs .link {
+.contacts-link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -197,10 +197,14 @@ p {
   letter-spacing: 0.02em;
 }
 
-.contatcs :hover,
-.contatcs :focus {
+.contacts-link:hover > .icon-contact,
+.contacts-link:focus > .icon-contact {
   color: var(--accent-color);
   fill: var(--accent-color);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
 }
 
 .contatcs .item {
@@ -379,6 +383,16 @@ p {
 
 .icon-clients:hover,
 .icon-clients:focus {
+  fill: var(--accent-color);
+}
+
+.area-logo-clients:hover,
+.area-logo-clients:focus {
+  border-color: var(--accent-color);
+}
+
+.clients-section li:hover,
+.clients-section li:focus .icon-clients {
   fill: var(--accent-color);
 }
 
