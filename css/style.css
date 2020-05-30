@@ -375,9 +375,24 @@ p {
   margin-top: 16px;
 }
 
+.team-link a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
 .icon-social-team {
   fill: #afb1b8;
 }
+
+.icon-social-team:hover,
+.icon-social-team:focus {
+  fill: var(--primery-bg-color);
+}
+
 .team-section li {
   background-image: #ffffff;
 
