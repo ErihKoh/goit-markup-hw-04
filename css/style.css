@@ -381,20 +381,6 @@ p {
   justify-content: center;
 }
 
-/* .icon-clients:hover,
-.icon-clients:focus {
-  fill: var(--accent-color);
-}
-
-.area-logo-clients:hover,
-.area-logo-clients:focus {
-  border-color: var(--accent-color);
-}
-
-.clients-section li:hover,
-.clients-section li:focus .icon-clients {
-  fill: var(--accent-color); */
-
 .clients-link:hover > .icon-clients,
 .clients-link:focus > .icon-clients {
   color: var(--accent-color);
@@ -419,7 +405,6 @@ footer {
   margin-left: auto;
   margin-right: auto;
   width: 1600px;
-  height: 253px;
   background: #2f303a;
 }
 .footer-flex {
